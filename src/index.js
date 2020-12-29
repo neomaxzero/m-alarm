@@ -1,5 +1,3 @@
-import "./styles.css";
-
 let alarmTimeout, alarmTwoTimeout;
 
 let state = {

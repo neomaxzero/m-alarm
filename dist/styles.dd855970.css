@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.box {
+  height: 60vh;
+  background-color: black;
+}
+
+.ring {
+  background-color: white;
+}
+
+.ring-2 {
+  background-color: greenyellow;
+}
+
+.section {
+  margin-top: 1rem;
+}
+
+.container {
+  padding: 1rem;
+}
+
+.preset-btn {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+ul {
+  text-decoration: none;
+  padding-inline-start: 0;
+}
+
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+/*# sourceMappingURL=/styles.dd855970.css.map */

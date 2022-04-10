@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Color alarm</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/styles.dd855970.css">
+  <script src="/styles.dd855970.js"></script></head>
+
+  <body>
+    <div id="app">
+      <h1 style="text-align: center;">Alarm but with color</h1>
+    </div>
+    <div id="box" class="box" data-component="alarm"></div>
+    <div class="container">
+      <div class="controls" data-component="alarmControl">
+        <input id="timer-input" value="1000" type="text" data-value="qty">
+        <button data-action="start" data-value="start">Start timer</button>
+      </div>
+      <div class="presets section" data-component="alarmConfig">
+        <ul>
+          <li class="preset-btn" data-value="900000" data-action="set15">
+            15 minutes
+          </li>
+          <li class="preset-btn" data-value="600000" data-action="set10">
+            10 minutes
+          </li>
+          <li class="preset-btn" data-value="300000" data-action="set5">
+            5 minutes
+          </li>
+          <li class="preset-btn" data-value="180000" data-action="set3">
+            3 minutes
+          </li>
+          <li class="preset-btn" data-value="60000" data-action="set1">
+            1 minute
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script src="/src.a2b27638.js"></script>
+  </body>
+</html>
